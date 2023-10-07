@@ -1,0 +1,195 @@
+:root{
+    --encabezado:#2f6ca5;
+    --enlace:#020202;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+#logo{
+    width: 35%;
+}
+
+#menu{
+    background-color:var(--encabezado) !important;
+}
+
+.nav-link{
+    color: var(--enlace);
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    color: #10bce7;
+}
+
+.alto-img{
+    height: 610px !important;
+    padding-top: 75px !important;
+}
+
+.nav-link.active{
+    color: #d8e51b !important;
+    font-weight: bold !important;
+    
+}
+
+.nav-link.active:hover{
+    color: #53adee !important;
+}
+
+/* novedades */
+#novedades{
+    background-color:#000000;
+}
+
+#novedades .titulo{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+/* sección videos */
+
+#videos{
+    background-color: #fff;
+}
+
+#videos .titulo{
+    width: 100%;
+    text-align: center;
+}
+
+
+/* footer */
+#page-footer{
+    background-color: var(--encabezado);
+}
+
+#page-footer a{
+    color: var(--enlace);
+}
+
+#page-footer .ftcontainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+    padding-top:40px 0;
+    flex-wrap: nowrap;
+}
+
+.footer__menu{
+    max-width: 300px;
+    grid-column: 1/3;
+    grid-row-start: 1;
+    padding-left: 1em;
+}
+
+.footer__menu figure{
+    width: 100%;
+    padding: 0;
+    margin-top: 10px;
+
+}
+
+.footer__logo{
+    width: 210px;
+}
+
+#page-footer .ftcontainer {
+    max-width: 1200px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 70px 0; 
+}
+
+.ft-social{
+    color: #fff;
+    border-radius: 100%;
+    height: auto;
+    width: 50px;
+    display: inline-block;
+    font-size: 14px;
+    line-height: inherit;
+}
+
+.ft-link{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer__title{
+    color: #fff;
+    font-weight: 700;
+    margin-bottom:30px;
+    font-size:1.2rem;
+}
+
+.footer__info{
+    color: #fff;
+    line-height:30px;
+    font-size: 1.0rem;
+}
+
+.footer__link:nth-child(1){
+    border-left: 2px solid #f3d707;
+}
+.footer__link:nth-child(2){
+    border-left: 2px solid #12d608;
+}
+.footer__link:nth-child(3){
+    border-left: 2px solid #f36507;
+}
+
+.footer-credits{
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    background-color: #032247;
+}
+
+/* pagina de contacto */
+#contacto .titulo {
+    width: 100%;
+    margin-top: 110px;
+    text-align: center;
+}
+
+/* pag de nosotros */
+
+#nosotros .titulo{
+    margin-top: 115px;
+    text-align: center;
+}
+
+/* pag de televisores */
+
+#televisor .titulo{
+    width: 100%;
+    text-align: center;
+    margin-top: 115px;
+}
+/* pag de celulares */
+
+#celular .titulo{
+    width: 100%;
+    text-align: center;
+    margin-top: 115px;
+}
+
+/* configurar las img en celular */
+#celular img{
+    height: 600px;
+}
+
+/* simulador */
+#simulador .titulo{
+    width: 100%;
+    text-align: center;
+    margin-top: 115px;
+}
